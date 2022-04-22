@@ -1,0 +1,9 @@
+name: id3tag
+version: 0.1.0
+
+authors:
+  - David Rogers <rogersdpdr@gmail.com>
+
+crystal: 1.4.0
+
+license: MIT

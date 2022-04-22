@@ -1,4 +1,6 @@
 name: id3tag
+description: |
+  Easily format mp3 files to have the id3 tag attributes that you would like
 version: 0.1.0
 
 authors:

@@ -1,6 +1,11 @@
 # id3tag
 
-TODO: Write a description here
+Read and Write Mp3 metadata in crystal 
+This is a very simple library without a rapper or anything
+The raw methods and use cases are explained bellow
+please don't hesitate to make an issue
+I will fix as soon as possible 
+ENJOY!!!
 
 ## Installation
 
@@ -81,8 +86,8 @@ key value pair where the 4 letters in caps are one of the following:
 - TYER    [#TYER Year]
 - TXXX    [#TXXX User defined text information frame]
 
-*N.B.* an extensive list can be found on https://id3.org/id3v2.3.0#Declared_ID3v2_frames
-*N.b.* some are unsupported but if you would like them to be supported please create a PR and explain how you would intend for them to be used
+*N.B.* an extensive list can be found on https://id3.org/id3v2.3.0#Declared_ID3v2_frames  
+*N.B.* some are unsupported but if you would like them to be supported please create a PR and explain how you would intend for them to be used
 
 ```crystal
 {

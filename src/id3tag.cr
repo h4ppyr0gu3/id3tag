@@ -1,5 +1,5 @@
 module Id3tag
-  VERSION = "0.1.0"
+  VERSION = "0.1.1"
 end
 
-require "./id3tag_cr/*"
+require "./id3tag/*"

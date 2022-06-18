@@ -44,7 +44,7 @@ module Id3tag
     def extract_mp3(file)
       header_size = header_size(file)
       file.pos = header_size + 10
-      file.getb_to_end
+      file.gets_to_end
     end
 
     def extract_header(temp_file : String, input_file : File)
